@@ -55,11 +55,12 @@ PRODUCT_PACKAGES += \
     LockClock \
     Launcher3 \
     AdAway \
+	SlimOTA \
     Terminal \
     Busybox \
     KernelAdiutor \
     LayersManager \
-    LMT
+#    LMT
 
 # APN list
 PRODUCT_COPY_FILES += \
