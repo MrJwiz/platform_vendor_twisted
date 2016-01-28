@@ -60,7 +60,7 @@ PRODUCT_PACKAGES += \
     Busybox \
     KernelAdiutor \
     LayersManager \
-#    LMT
+    LMT
 
 # APN list
 PRODUCT_COPY_FILES += \
