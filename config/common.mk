@@ -70,9 +70,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/twisted/prebuilt/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/twisted/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+    
+# SELinux filesystem labels
+PRODUCT_COPY_FILES += \
+    vendor/twisted/prebuilt/etc/init.d/49selinuxrelabel:system/etc/init.d/49selinuxrelabel 
 
 # init.d script support
 PRODUCT_COPY_FILES += \
+    vendor/twisted/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/twisted/prebuilt/bin/sysinit:system/bin/sysinit
 
 # Layers Backup
